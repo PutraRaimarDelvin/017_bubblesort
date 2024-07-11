@@ -27,3 +27,14 @@ void input() {       //Method untuk input
     }
 }
 
+void display() { //Method untuk menampilkan hasil
+    cout << endl;                            //Output baris kosong
+    cout << "=================================" << endl;  //Output ke layar
+    cout << "Element Array yang telah tersusun" << endl;  //Output ke layar
+    cout << "=================================" << endl;  //Output ke layar
+    for (int i = 0; i < n; i++) {
+        cout << arr[i] << endl;
+    }
+    cout << endl;                                         //Output ke layar
+}
+
